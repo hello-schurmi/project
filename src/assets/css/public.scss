@@ -1,0 +1,316 @@
+html{
+  height: 100%;
+  width: 100%;
+  
+}
+// 用于公共样式的存放===========================
+.flex-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-right {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  padding: 10px 14px;  
+  padding-bottom: 0px; 
+  height: calc(100% - 10px); 
+  .content-title {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+//列表顶部按钮=======================
+.top-btn-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  margin-bottom: 12px;
+  // .el-button {
+  //   margin: 0 10px;
+  // }
+}
+.top-btn-list + .top-btn-list {
+  margin-top: 10px;
+}
+//表格布局
+.grid-5 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 1px;
+  margin-bottom: 12px; 
+}
+
+//颜色信息========================
+.btn-red {
+  color: #f56c6c !important;
+}
+//宽度信息========================
+.width-100 {
+  width: 100%;
+}
+.width-200 {
+  width: 200px;
+}
+.width-30 {
+  display: inline-block;
+  width: 30px;
+}
+.width-20 {
+  display: inline-block;
+  width: 20px;
+}
+.width-10 {
+  display: inline-block;
+  width: 10px;
+}
+
+//=====================================
+//卡片样式-------------------------
+.el-card__body {
+  padding: 15px 0 !important;
+  .card-heard {
+    padding: 15px;
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #ebeef5;
+  }
+  .bot-line-no {
+    border-bottom: none;
+    margin-bottom: 0px;
+  }
+  .card-bot {
+    padding: 15px;
+    padding-bottom: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #333;
+    border-top: 1px solid #ebeef5;
+  }
+}
+.el-card.is-hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 1px rgba(0, 0, 0, 0.12) !important;
+}
+
+//按钮样式-------------------------
+.el-button {
+  font-weight: normal !important;
+  border-radius: 2px !important;
+  font-size: 12px !important;
+  height: 30px !important;
+}
+.el-button--primary {
+  // background: #0064c8 !important;
+  // border-color: #0064c8 !important;
+}
+.el-button--small {
+  padding: 5px 12px !important;
+  height: 24px !important;
+}
+.el-button--large{
+  padding: 5px 12px !important;
+  height: 40px !important;
+}
+
+.el-form--large.el-form--label-top .el-form-item .el-form-item__label{
+  margin-bottom: 3px!important;
+  font-size: 13px;
+  color:rgba(31,33,38,.7);
+}
+
+
+.el-button + .el-button {
+  margin-left: 8px !important;
+}
+
+//文本样式按钮-------------------------
+.btn-text {
+  font-size: 12px;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 2px;
+  color: #2878ff;
+  cursor: pointer;
+}
+.btn-text + .btn-text {
+  margin-left: 8px;
+}
+
+//图标按钮-------------------------
+.btn-icon {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  width: 28px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 2px;
+  color: #333;
+  border: 1px solid #c0c6cc;
+  background: #fff;
+  cursor: pointer;
+}
+.btn-icon:hover {
+  color: #333;
+  border-color: #c0c6cc;
+  background: #f7f9fa;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+}
+.btn-icon + .btn-icon {
+  margin-left: 8px;
+}
+
+//弹框样式-------------------------
+.el-dialog {
+  border-radius: 3px !important;
+  .el-dialog__header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 24px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    margin-right: 0;
+    .el-dialog__title {
+      font-size: 14px;
+    }
+    .el-dialog__headerbtn {
+      top: 0;
+    }
+  }
+  .el-dialog__body {
+    padding: 16px 24px;
+    padding-top: 1px;
+  }
+}
+
+//输入框样式--------------------------
+.el-input__inner {
+  font-size: 12px !important;
+}
+//下拉选择样式-------------------------
+.el-select {
+  width: 100% !important;
+}
+//时间选择样式-------------------------
+.el-date-editor {
+  width: 100% !important;
+  .el-range-input {
+    font-size: 12px !important;
+  }
+  .el-range-separator {
+    font-size: 12px !important;
+  }
+}
+//表单样式-------------------------
+.el-form-item {
+  display: flex;
+  margin-bottom: 15px;
+  .el-form-item__label {
+    font-size: 12px;
+  }
+}
+
+//自定义表单样式（搜索）-----------
+.form-label {
+  display: flex;
+  align-items: center;
+  > span {
+    flex: none;
+    width: 60px;
+    font-size: 12px;
+    color: #555;
+    text-align: right;
+  }
+}
+
+//抽屉样式-------------------------
+.el-drawer__body {
+  padding: 20px 0 !important;
+  padding-top: 10px !important;
+  .drawer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font-size: 15px;
+    color: #606060;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+  }
+  .drawer-box {
+    padding: 0 15px;
+  }
+}
+//表格样式===========================
+//气泡弹窗===========
+.el-popconfirm__main {
+  font-size: 12px !important;
+}
+//文字提示样式 自定义=======================
+.el-popper.is-light {
+  /* Set padding to ensure the height is 32px */
+  color: #606266 !important;
+  background: #fff !important;
+  border: 1px solid #dedede !important;
+}
+.el-popper.is-light .el-popper__arrow::before {
+}
+
+//表格操作更多按钮
+.table-btn-more {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .btn-text {
+    margin-left: 0;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+//弹窗================
+.el-popover.el-popper {
+  min-width: 20px !important;
+  padding: 5px !important;
+  border: 1px solid #ebeef5 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+//loading 背景图=================
+.el-loading-spinner {
+  background: url(@/assets/images/loading.svg) no-repeat;
+  background-size: 50px 50px;
+  width: 50px !important;
+  height: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px !important;
+  margin-left: -100px;
+  .circular {
+    display: none !important; //隐藏默认loading svg图案
+  }
+}

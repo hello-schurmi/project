@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="560"
+  height="1024" viewBox="0 0 560 1024">
+  <defs>
+    <mask id="master_svg0_1505_2272">
+      <g style="mix-blend-mode:passthrough">
+        <rect x="0" y="0" width="560" height="1024" rx="0" fill="#FFFFFF" fill-opacity="1" />
+      </g>
+    </mask>
+  </defs>
+  <g style="mix-blend-mode:passthrough">
+    <g mask="url(#master_svg0_1505_2272)">
+      <g style="mix-blend-mode:passthrough">
+        <g>
+          <g style="mix-blend-mode:passthrough">
+            <path
+              d="M136.5,462.5L185.5,773.5L527.5,820L564.5,865.5L564.5,668.5Q358,612,307.5,469Q173.5,464,136.5,462.5Z"
+              fill="#458BFF" fill-opacity="1" />
+          </g>
+          <g style="mix-blend-mode:passthrough">
+            <path
+              d="M-35,782Q129,839.5,564,865L564,766.5Q274,701.5,264,586.5Q254,471.5,564,292L564,-18L-35,-18L-35,782Z"
+              fill="#347DF9" fill-opacity="1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
